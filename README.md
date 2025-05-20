@@ -1,8 +1,11 @@
 In this week's assignment we explore JavaScript Event Handling & Interactive Elements Assignment. 
 
 Created a simple interactive landing page called Dog Haven - Dog Sale Landing Page
+ 
  It showcases dogs available for adoption! This project simulates a dog shelter’s online presence with essential features to engage users and promote dog adoptions.
-    * Features
+    
+   * Features
+    
 * Available & Adopted Dogs Tabs
 
     Switch between two sections: Available Dogs and Adopted.
