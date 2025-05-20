@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Haven</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Dog Haven 🐶</h1>
+    <p>Your best furry friend awaits!</p>
+  </header>
+
+  <section class="tabs">
+    <button class="tab active" data-tab="available">Available Dogs</button>
+    <button class="tab" data-tab="adopted">Adopted</button>
+  </section>
+
+  <main>
+    <div class="dogs-container" id="available">
+      <div class="dog-card">
+        <img src="https://placedog.net/400?id=1" alt="Dog 1">
+        <h3>Charlie</h3>
+        <p>Age: 1 year</p>
+        <p>Gender: Male</p>
+         <p>Breed: Poodle</p>
+</p>
+        <button class="adopt-btn">Adopt Me</button>
+      </div>
+      <div class="dog-card">
+        <img src="https://placedog.net/400?id=2" alt="Dog 2">
+        <h3>Luna</h3>
+        <p>Age: 5 months</p>
+        <p>Gender: Male</p>
+        <p>Breed: Poodle</p>
+        <button class="adopt-btn">Adopt Me</button>
+      </div>
+    </div>
+        <div class="dog-card">
+            <img src="https://placedog.net/400?id=3" alt="Dog 3">
+            <h3>Max</h3>
+            <p>Age: 4 years</p>
+            <p>Gender: Male</p>
+            <p>Breed: Beagle</p>
+            <button class="adopt-btn">Adopt Me</button>
+    </div>
+
+    <div class="dogs-container hidden" id="adopted">
+      <p>No adopted dogs yet!</p>
+    </div>
+
+    <section class="slider">
+      <h2>Dog Gallery</h2>
+      <div class="slider-container">
+        <button class="slider-btn" id="prev">&#8592;</button>
+        <img id="slider-image" src="https://placedog.net/600?id=10" alt="Slider Dog">
+        <button class="slider-btn" id="next">&#8594;</button>
+      </div>
+    </section>
+  </main>
+
+  <section class="form-section">
+    <h2>Adoption Form</h2>
+    <form id="adoptionForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required minlength="8" />
+      <button type="submit">Submit</button>
+      <p id="form-feedback"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dog Haven</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

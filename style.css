@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdf6f0;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #ffe7ba;
+  padding: 2em;
+}
+
+.tabs {
+  margin: 1em;
+}
+
+.tab {
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tab.active {
+  background: #ffa07a;
+}
+
+.dogs-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em;
+}
+
+.dog-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 200px;
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+
+.dog-card:hover {
+  transform: scale(1.05);
+}
+
+.dog-card img {
+  width: 100%;
+}
+
+.adopt-btn {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  width: 100%;
+  cursor: pointer;
+}
+
+.form-section {
+  padding: 2em;
+}
+
+input {
+  display: block;
+  margin: 1em auto;
+  padding: 0.5em;
+  width: 80%;
+  max-width: 300px;
+}
+
+button[type="submit"] {
+  background: #32cd32;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.slider {
+  margin: 2em 0;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.slider-container img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slider-btn {
+  background: #ffa07a;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-radius: 5px;
+}
